@@ -4,4 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
 *{font-family: 'Noto Sans KR', sans-serif;}
+.seperateDot{
+    @apply after:inline-block after:content-[''] after:w-[3px] after:h-[3px] after:bg-stone-400 after:rounded-full after:ml-1 after:mb-1;
+}
