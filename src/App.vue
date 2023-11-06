@@ -1,10 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <NavComp />
   </nav>
   <router-view/>
 </template>
-
+<script setup>
+import NavComp from '@/components/NavComp.vue';
+</script>
 <style>
 </style>

@@ -1,7 +1,4 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-  </div>
   <div class="wrapper max-w-7xl mx-auto px-[2%] lg:px-0 flex flex-wrap">
     <div class="basis-full my-5 flex justify-between">
       <h2 class="text-4xl font-bold my-5">내가 받은 후기</h2>
@@ -20,12 +17,6 @@
   </div>
 </template>
 
-<script>
-import CommentComp from '@/components/CommentComp.vue'
-export default {
-  name: 'HomeView',
-  components: {
-    CommentComp
-  }
-}
+<script setup>
+import CommentComp from '@/components/CommentComp.vue';
 </script>
