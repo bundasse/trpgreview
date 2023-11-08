@@ -2,12 +2,11 @@
     <!-- 데스크탑 -->
     <div class="gnb max-w-7xl mx-auto h-20 flex justify-between items-center">
         <h1><router-link to="/">로고</router-link></h1>
-        <div>
-            <input type="" name="" value="" placeholder="찾고싶은 사람의 닉네임을 입력해보세요">
-            <button></button>
+        <div class="flex rounded-2xl bg-stone-200 px-5 py-1">
+            <input class="basis-5/6" type="" name="" value="" placeholder="찾고싶은 사람의 닉네임을 입력해보세요">
+            <button>검색</button>
         </div>
         <ul class="flex gap-20">
-            <li></li>
             <li>캘린더</li>
             <li>나만의 후기</li>
         </ul>
