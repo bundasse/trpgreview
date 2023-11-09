@@ -8,7 +8,7 @@
         </div>
         <ul class="flex gap-20">
             <li>캘린더</li>
-            <li>나만의 후기</li>
+            <li>일기</li>
         </ul>
         <div class="myPage basis-28 text-right">
             <div v-if="loginOn === false" @click="loginOn = !loginOn">로그인</div>
