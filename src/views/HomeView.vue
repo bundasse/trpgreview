@@ -5,10 +5,12 @@
         <div class="basis-full rounded-xl overflow-hidden">
           <div class="top bg-yellow-500 p-5"></div>
           <div class="contents">
-            
+            <h2 class="text-2xl font-bold my-5">닉네임</h2>
+            <p>소개문구</p>
           </div>
         </div>
       </div>
+      <!-- 달력 -->
       <div class="basis-[23%] flex flex-col rounded-xl overflow-hidden">
         <div class="top bg-yellow-500 p-5"></div>
         <div class="contents"></div>
